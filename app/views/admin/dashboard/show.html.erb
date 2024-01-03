@@ -1,0 +1,21 @@
+<<section class="admin-dashboard-index">
+<header class="page-header">
+<h1>Admin Dashboard</h1>
+</header>
+<div class="cards">
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Products</h5>
+    <p class="card-text">Total Products: <%= @product_count %></p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Categories</h5>
+    <p class="card-text">Total Categories: <%= @category_count %></p>
+  </div>
+</div>
+</div>
+<a href="/admin/products" class="btn btn-primary card-button">Admin Products</a>
+<a href="/admin/categories" class="btn btn-primary card-button">Admin Categories</a>
+</section>
